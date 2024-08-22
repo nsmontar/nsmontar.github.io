@@ -38,7 +38,9 @@ Sign in to GitHub and [**use this template**][use-template] to generate a brand 
 Then clone it to your local machine and run:
 
 ```console
-$ bundle
+$ bundle                    # installs dependencies
+$ jekyll build --verbose    # verbose build, for debugging
+$ bundle exec jekyll s      # serves the site locally
 ```
 
 ## Usage
